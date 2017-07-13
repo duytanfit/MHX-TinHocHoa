@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/profileStyle.css"/>
+    <script src="js/jquery-3.2.1.min.js"/>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 information">
+            <h3>Edit profile</h3>
+            <div class="row">
+                <div class="form-group col-lg-5">
+                    <label for="company">COMPANY</label>
+                    <input type="text" class="form-control" id="company" placeholder="Creative Code Inc." disabled>
+                </div>
+                <div class="form-group col-lg-3">
+                    <label for="username">USERNAME</label>
+                    <input type="text" class="form-control" id="username" value="michael123">
+                </div>
+                <div class="form-group col-lg-4">
+                    <label for="emailAddress">EMAIL ADDRESS</label>
+                    <input type="email" class="form-control" id="emailAddress" placeholder="Email">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-lg-6">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" class="form-control" id="firstname" value="Mike">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" class="form-control" id="lastname" value="Andrew">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-lg-12">
+                    <label for="address">ADDRESS</label>
+                    <input type="text" class="form-control" id="address"
+                           value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-lg-4">
+                    <label for="city">CITY</label>
+                    <input type="text" class="form-control" id="city" placeholder="City">
+                </div>
+                <div class="form-group col-lg-4">
+                    <label for="country">COUNTRY</label>
+                    <input type="text" class="form-control" id="country" placeholder="Country">
+                </div>
+                <div class="form-group col-lg-4">
+                    <label for="portalcode">PORTALCODE</label>
+                    <input type="text" class="form-control" id="portalcode" placeholder="ZIP Code">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-lg-12">
+                    <label for="about">ABOUT ME</label>
+                    <textarea class="form-control" rows="5" id="about"></textarea>
+                </div>
+            </div>
+
+            <div class="row col-lg-12">
+                <input type="button" class="btn-success btn pull-right" value="Update Profile">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="container-fluid wall">
+                <div class="image">
+                    <img class="img-responsive"
+                         src="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400">
+                </div>
+
+                <div class="avatar">
+                    <img class="img-circle"
+                         src="http://demos.creative-tim.com/light-bootstrap-dashboard/assets/img/faces/face-3.jpg">
+                </div>
+            </div>
+            <div class="container-fluid description">
+                <h3>Mike Andrew<br><small>michael24</small></h3>
+                <p>"Lamborghini Mercy
+                    Your chick she so thirsty
+                    I'm in that two seat Lambo"</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>
